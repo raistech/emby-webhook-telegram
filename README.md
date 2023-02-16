@@ -1,12 +1,16 @@
 
 To use the above code with Nginx, first make sure that Nginx is installed and configured properly. The following is an example of a Nginx block server configuration:
 
-{
-server 
+
+
+
+
+    
+    server {
     listen 80;
     server_name example.com;
-
-    location /webhook {
+    
+    location /webhook
         proxy_pass http://127.0.0.1:5000;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;

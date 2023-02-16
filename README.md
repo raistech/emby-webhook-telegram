@@ -1,7 +1,8 @@
 
 To use the above code with Nginx, first make sure that Nginx is installed and configured properly. The following is an example of a Nginx block server configuration:
 
-server {
+{
+server 
     listen 80;
     server_name example.com;
 
@@ -10,7 +11,6 @@ server {
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
     }
-}
 
 The above configuration will forward requests to /webhook to our Flask application running on port 5000 on 127.0.0.1. Additionally, additional headers such as Host and X-Real-IP will be included to ensure security and accuracy of requests.
 

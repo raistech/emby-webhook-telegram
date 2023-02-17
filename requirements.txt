@@ -1,0 +1,6 @@
+requests
+json
+time
+urllib.parse
+flask
+python-telegram-bot==13.7

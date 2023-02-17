@@ -1,4 +1,3 @@
-![Logo](https://telegra.ph/file/6b38456cc0cc388830843.png)
 
 ## INSTALL
 
@@ -60,3 +59,5 @@ Please make sure to update tests as appropriate.
 <img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
 </a>
 </div>
+
+![Logo](https://telegra.ph/file/6b38456cc0cc388830843.png)

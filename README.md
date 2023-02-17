@@ -1,4 +1,4 @@
-![Logo](https://telegra.ph/file/4128729c6c45422047131.gif)
+![Logo](https://telegra.ph/file/6b38456cc0cc388830843.png)
 
 ## INSTALL
 

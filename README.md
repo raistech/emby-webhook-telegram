@@ -1,4 +1,4 @@
-![Logo](https://cdn.ra-is.tech/raistech.jpeg)
+![Logo](https://telegra.ph/file/4128729c6c45422047131.gif)
 
 ## INSTALL
 

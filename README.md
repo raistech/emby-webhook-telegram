@@ -20,9 +20,11 @@ The above configuration will forward requests to /webhook to our Flask applicati
 
 Once Nginx is configured, run the Flask application with the python app.py command. Then, create and register your Telegram bot, then change the value of BOT_TOKEN and CHAT_ID in the Python code according to your Telegram bot chat token and ID. Finally, change the values ​​of the EMBY_URL and EMBY_API_KEY according to your Emby URL and Emby API key. Now Emby notifications will be forwarded to your Telegram bot via a webhook set up with Nginx.
 
-INSTALL
+# INSTALL
 
-git clone https://github.com/raistech/emby-webhook-telegram.git
-cd emby-webhook-telegram
-# edit youre env
-python3 bot.py
+    git clone https://github.com/raistech/emby-webhook-telegram.git
+    cd emby-webhook-telegram
+    #don't forget edit your env
+    nano bot.py
+    #save youre edit
+    python3 bot.py

@@ -4,6 +4,14 @@
     cd emby-webhook-telegram
     #don't forget edit your env
     nano bot.py
+    
+    # Set up Telegram bot information
+    BOT_TOKEN = 'TELEGRAM_BOT_TOKEN'
+    CHAT_ID = 'TELEGRAM_CHAT_ID'
+    # Set up Emby information
+    EMBY_URL = 'http://yourembyserver:8096'
+    EMBY_API_KEY = 'YOURE_EMBY_API_KEY'
+    
     #save youre edit
     python3 bot.py
 
